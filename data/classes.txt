@@ -1,0 +1,6 @@
+bathroom
+computer_lab
+field
+forest
+living_room
+staircase
