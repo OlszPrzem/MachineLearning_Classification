@@ -21,17 +21,23 @@ Educational project to train several CNN neural networks on the dataset "Scene C
 
 ## Train
 
+Comparison diffrent models in training.
+
 <img
   src="/train_task/tensorboard_results/example_different_networks.jpg"
   alt="pic3"
   title="CNN train curves"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
+Comparison diffrent parts of dataset used for training.
+
 <img
   src="/train_task/tensorboard_results/example_cross_validation.jpg"
   alt="pic4"
   title="cross validation"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+  
+ Example of training and validation curve during training proces.
   
 <img
   src="/train_task/tensorboard_results/example_train_valid_curves.jpg"
@@ -42,6 +48,8 @@ Educational project to train several CNN neural networks on the dataset "Scene C
 
 ## Eval
 
+Evaluation one of the best model. Confussion matrix for test dataset.
+
 <img
   src="/eval/results/conf_matrix.png"
   alt="pic6"
@@ -49,3 +57,13 @@ Educational project to train several CNN neural networks on the dataset "Scene C
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
+## Libraries used:
+```
+pytorch
+torchvision
+numpy
+albumentations
+pandas
+seaborn
+matplotlib
+```
