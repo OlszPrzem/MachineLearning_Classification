@@ -41,3 +41,11 @@ Educational project to train several CNN neural networks on the dataset "Scene C
 
 
 ## Eval
+
+<img
+  src="/eval/results/conf_matrix.png"
+  alt="pic6"
+  title="Conf matrix"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
