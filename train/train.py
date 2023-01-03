@@ -3,22 +3,13 @@ print(torch.cuda.is_available())
 
 import sys
 import pandas as pd
-# sys.path.insert(1, 'D:hemi\\Hemitech_AI\\Clever_ES23')
-# sys.path.insert(1, 'C:\\Users\\przemeko\\Desktop\\hemi\\Hemitech_AI\\Clever_ES23\\my_package\\')
 sys.path.append("..")
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
-# import numpy as np
-# import torchvision
-# from torchvision import datasets, models, transforms
 import matplotlib.pyplot as plt
-# import time
-# import os
-# import copy
-# from PIL import Image
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 import random
